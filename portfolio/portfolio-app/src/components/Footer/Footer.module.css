@@ -1,0 +1,159 @@
+.upperfooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upperfooter .image{
+    padding-top: 50px;
+}
+.upperfooter h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+font-size: 1.9rem;
+}
+
+
+
+.rocket h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem; 
+    padding-right: 10px;
+}
+
+.rocket {
+    width : 300px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap ;
+}
+
+.upperfooter  a{
+    text-decoration: none;
+}
+
+.upperfooter button {
+    margin-bottom: 60px;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.upperfooter button:hover{
+    background-color: rgb(41, 41, 96);
+    color: white;
+    cursor: pointer;
+}
+
+.lowerfooter{
+    background-color: rgb(40, 39, 39);
+}
+
+.lowerfooter .icons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+/* .lowerfooter .icons {
+    padding: 10px;
+    font-size: 40px;
+} */
+.lowerfooter .icons a {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    margin: 10px;
+   
+    background-size: 100% 200%;
+    background-position: 0% 8%;
+
+    transition: background-position 0.5s;
+   
+    
+   
+   
+}
+
+.icons a:nth-child(1){
+    color: #1976d3;
+    background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+
+.icons a:nth-child(2){
+    color:#171515;
+    background-image: linear-gradient(#fff 50%, #171515 50%);
+  
+}
+
+.icons a:nth-child(3){
+    color: #0A66C2;
+    background-image: linear-gradient(#fff 50%, #0A66C2 50%);
+   
+}
+.icons a:nth-child(4){
+    color: #171515;
+    background-image: linear-gradient(#fff 50%, #171515 50%);
+   
+}
+.icons a:nth-child(5){
+    color: #f44236;
+    background-image: linear-gradient(#fff 50%, #f44236 50%);  
+}
+
+.icons a:hover{
+    background-position: 0% 100%;
+    color: white;
+}
+
+.lowerfooter hr {
+    width: 90%;
+    color: white;
+    margin-top: 80px;
+}
+
+.footerbottom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerbottom span{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footerbottom h2{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+@media screen and (min-width : 769px) {
+    .rocket {
+        width : 100%;
+        height:auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
