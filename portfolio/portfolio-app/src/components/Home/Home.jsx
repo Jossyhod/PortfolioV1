@@ -4,10 +4,10 @@ import styles from "./Home.module.css";
 import About from "../About/About";
 import Passion from "../Passion/Passion";
 import Experience from "../Experience/Experience";
-import { Parallax, ParallaxLayer } from "react-parallax";
+import { Parallax,  } from "react-parallax";
 import Work from "../Work/Work";
 import Footer from "../Footer/Footer";
-import { Routes, Route, Navigate } from "react-router-dom";
+
 
 
 const Home = () => {
@@ -45,7 +45,7 @@ const Home = () => {
       >
         <div className={styles.parallaxcontent}>
           <span>Check out my résumé!</span>
-          <a  href="https://drive.google.com/file/d/11zaFTIEQKJrlAmbDGFWn4kSdds5MjGVV/view" target="_blank"><button>Click To View</button></a> 
+          <a  href="https://drive.google.com/file/d/11zaFTIEQKJrlAmbDGFWn4kSdds5MjGVV/view" target="_blank" rel="noreferrer"><button>Click To View</button></a> 
         </div>
       </Parallax>
       <div>

@@ -1,11 +1,8 @@
 import React from "react";
 import styles from "./Navigation.module.css";
-// import { Link } from "react-router-dom";
-import { HashLink as Link } from 'react-router-hash-link';
-// import Carticon from "./Carticon/Carticon";
-// import Favourite from "./Favourite/Favourite"
-// import User from "./User/User";
-// import Plus from "./Plus/Plus";
+import { Link } from "react-router-dom";
+
+
 
 const Navigation = () => {
     return (
@@ -15,14 +12,14 @@ const Navigation = () => {
           </div>
           <ul className={styles.nav_ul}>
             <li> <Link to="/">Home</Link></li>
-            <li> <Link to="#contact"smooth>Contact</Link></li>
+            <li> <Link to="contact"smooth>Contact</Link></li>
             <li> <Link to={"/about"}>About</Link></li>
-            <li> <Link to={"/signup"}>Work</Link></li>
-            <li> <Link to={"/signup"}>Experience</Link></li>
-            <li> <Link to={"/signup"}>Passion</Link></li>
+            <li> <Link to={"/work"}>Work</Link></li>
+            <li> <Link to={"/experience"}>Experience</Link></li>
+            <li> <Link to={"/passion"}>Passion</Link></li>
           </ul>
              
-          <div className={styles.menubar}><img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172729/menu_rljc50.png"/></div>
+          <div className={styles.menubar}><img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172729/menu_rljc50.png" alt=""/></div>
           
 
         </div>

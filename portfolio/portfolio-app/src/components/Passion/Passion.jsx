@@ -6,11 +6,11 @@ const Passion = () => {
     <div className={styles.container}>
       <div className={styles.heading}>
         <h2>THINGS I AM PASSIONATE ABOUT</h2>
-        <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700572637/Smiley-removebg-preview_1_jvzoee.png" />
+        <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700572637/Smiley-removebg-preview_1_jvzoee.png" alt="" />
       </div>
       <section className={styles.passion}>
         <div className={styles.passionbox}>
-          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700575053/Frontend-removebg-preview_taxn44.png" />
+          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700575053/Frontend-removebg-preview_taxn44.png" alt="" />
           <h3>FrontEnd Development</h3>
           <p>
             I love to make things on the web and the creative outlet it provides
@@ -21,7 +21,7 @@ const Passion = () => {
         </div>
 
         <div className={styles.passionbox}>
-          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700575053/backend-removebg-preview_dyubar.png" />
+          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700575053/backend-removebg-preview_dyubar.png" alt=""/>
           <h3>BackEnd Development</h3>
           <p>
             "My passion for backend development is like the heartbeat of every
@@ -30,7 +30,7 @@ const Passion = () => {
           </p>
         </div>
         <div className={styles.passionbox}>
-          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700575053/Mentor-removebg-preview_mopgx1.png" />
+          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700575053/Mentor-removebg-preview_mopgx1.png" alt=""/>
           <h3>Mentorship</h3>
           <p>
             Giving back to the community has been my biggest passion. So, I also

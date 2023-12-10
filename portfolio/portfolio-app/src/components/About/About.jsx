@@ -9,10 +9,10 @@ const About = () => {
           <p>A LITTLE ABOUT ME!</p>
           <div className={styles.box}>
           <div className={styles.image1}>
-            <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1693076837/Joseph-removebg-preview_vayj27.png" />
+            <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1693076837/Joseph-removebg-preview_vayj27.png" alt=""/>
           </div>
           <div className={styles.image2}>
-            <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701782429/Profile_Image_2-removebg-preview_tzqsuf.png" />
+            <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701782429/Profile_Image_2-removebg-preview_tzqsuf.png" alt="" />
           </div>
           </div>
           

@@ -5,7 +5,6 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -16,7 +15,7 @@ const Footer = () => {
       <section className={styles.upperfooter}>
         <img
           className={styles.image}
-          src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700846354/Paper_plane_tmtvsz.png"
+          src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700846354/Paper_plane_tmtvsz.png" 
           width="80px"
           alt="Paper Plane logo"
         />
@@ -42,22 +41,23 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/ikeanyi.hod?mibextid=ViGcVu"
             target="_blank"
+            rel="noreferrer"
           >
             <FaFacebook className={styles.facebook} />
           </a>
 
-          <a href="https://twitter.com/Jossyhod" target="_blank">
+          <a href="https://twitter.com/Jossyhod" target="_blank" rel="noreferrer">
             <FaXTwitter className={styles.twitter} />
           </a>
-          <a href="https://linkedin.com/in/jossyhod/" target="_blank">
+          <a href="https://linkedin.com/in/jossyhod/" target="_blank" rel="noreferrer">
             <FaLinkedin className={styles.linkedin} />
           </a>
-          <a href="https://github.com/Jossyhod" target="_blank">
+          <a href="https://github.com/Jossyhod" target="_blank" rel="noreferrer">
             <FaGithub className={styles.github} />
           </a>
           <a
             href="https://instagram.com/jossy_hod?utm_source=qr&igshid=OWM2ZWI5NDFkNA=="
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             {" "}
             <FaInstagram className={styles.instagram} />

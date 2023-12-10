@@ -12,7 +12,7 @@ const Work = () => {
           <div className={styles.singleproject}>
             <img
               className={styles.image}
-              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701272806/colorlib_page_wmgkym.png"
+              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701272806/colorlib_page_wmgkym.png" alt=""
             />
             <div className={styles.heading}>
               <h2>COLORLIB</h2>
@@ -22,32 +22,32 @@ const Work = () => {
             </p>
             <div className={styles.technology}>
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png" alt=""
                 width="30px"
               />
             </div>
             <div className={styles.more}>
               <a
                 href="https://colorliblandingpagebyjoseph.netlify.app/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <h3>View More</h3>
               </a>
 
               <a
                 href="https://colorliblandingpagebyjoseph.netlify.app/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img
-                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png"
+                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png" alt=""
                   width="60px"
                 />
               </a>
@@ -56,7 +56,7 @@ const Work = () => {
           <div className={styles.singleproject}>
             <img
               className={styles.image}
-              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701289602/2-OC-e-commerce_page_kojjg4.png"
+              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701289602/2-OC-e-commerce_page_kojjg4.png" alt=""
             />
             <div className={styles.heading}>
               <h2>2-OC E-COMMERCE</h2>
@@ -68,35 +68,35 @@ const Work = () => {
             </p>
             <div className={styles.technology}>
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/NodeJs-removebg-preview_ewnf9y.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/NodeJs-removebg-preview_ewnf9y.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/Redux_logo_p6wpil.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/Redux_logo_p6wpil.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/React_logo_myj53x.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/React_logo_myj53x.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700682303/MongoDB-removebg-preview_uy4fjv.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700682303/MongoDB-removebg-preview_uy4fjv.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675916/Expressjs_wijasq.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675916/Expressjs_wijasq.png" alt=""
                 width="30px"
               />
             </div>
@@ -107,7 +107,7 @@ const Work = () => {
 
               <a href="/" target="_blank">
                 <img
-                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png"
+                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png" alt=""
                   width="60px"
                 />
               </a>
@@ -116,7 +116,7 @@ const Work = () => {
           <div className={styles.singleproject}>
             <img
               className={styles.image}
-              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701289602/Portfolio_Page_vo0dxs.png"
+              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701289602/Portfolio_Page_vo0dxs.png" alt=""
             />
             <div className={styles.heading}>
               <h2>PORTFOLIO V1</h2>
@@ -124,38 +124,38 @@ const Work = () => {
             <p>My current personal portfolio website</p>
             <div className={styles.technology}>
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/NodeJs-removebg-preview_ewnf9y.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/NodeJs-removebg-preview_ewnf9y.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/React_logo_myj53x.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/React_logo_myj53x.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700682303/MongoDB-removebg-preview_uy4fjv.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700682303/MongoDB-removebg-preview_uy4fjv.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675916/Expressjs_wijasq.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675916/Expressjs_wijasq.png" alt=""
                 width="30px"
               />
             </div>
             <div className={styles.more}>
-              <a href="/" target="_blank">
+              <a href="https://josephikeanyi.netlify.app" target="_blank" rel="noreferrer">
                 <h3>View More</h3>
               </a>
 
-              <a href="/" target="_blank">
+              <a href="https://josephikeanyi.netlify.app" target="_blank" rel="noreferrer">
                 <img
-                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png"
+                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png" alt=""
                   width="60px"
                 />
               </a>
@@ -164,7 +164,7 @@ const Work = () => {
           <div className={styles.singleproject}>
             <img
               className={styles.image}
-              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701289600/TaskPert_page_zljdlf.png"
+              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701289600/TaskPert_page_zljdlf.png" alt=""
             />
             <div className={styles.heading}>
               <h2>TASKPERT</h2>
@@ -176,42 +176,42 @@ const Work = () => {
             </p>
             <div className={styles.technology}>
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/NodeJs-removebg-preview_ewnf9y.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/NodeJs-removebg-preview_ewnf9y.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/React_logo_myj53x.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675918/React_logo_myj53x.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700682303/MongoDB-removebg-preview_uy4fjv.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700682303/MongoDB-removebg-preview_uy4fjv.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675916/Expressjs_wijasq.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675916/Expressjs_wijasq.png" alt=""
                 width="30px"
               />
             </div>
             <div className={styles.more}>
-              <a href="/" target="_blank">
+              <a href="/" target="_blank" rel="noreferrer">
                 <h3>View More</h3>
               </a>
 
-              <a href="/" target="_blank">
+              <a href="/" target="_blank" rel="noreferrer">
                 <img
-                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png"
+                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png" alt=""
                   width="60px"
                 />
               </a>
@@ -220,7 +220,7 @@ const Work = () => {
           <div className={styles.singleproject}>
             <img
               className={styles.image}
-              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701625818/BEYOND_AGE_KITCHEN_sy4ib1.png"
+              src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701625818/BEYOND_AGE_KITCHEN_sy4ib1.png" alt=""
             />
             <div className={styles.heading}>
               <h2>BEYOND-AGE KITCHEN</h2>
@@ -231,34 +231,34 @@ const Work = () => {
             </p>
             <div className={styles.technology}>
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/HTML_Logo_rxoiwj.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/CSS_Logo_wgclwt.png" alt=""
                 width="30px"
               />
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1700675917/Javascript_fcvm7u.png" alt=""
                 width="30px"
               />
 
               <img
-                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701627304/Bootstrap_Logo-removebg-preview_hygprv.png"
+                src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701627304/Bootstrap_Logo-removebg-preview_hygprv.png" alt=""
                 width="30px"
               />
             </div>
             <div className={styles.more}>
-              <a href="https://beyondagekitchen.netlify.app/" target="_blank">
+              <a href="https://beyondagekitchen.netlify.app/" target="_blank" rel="noreferrer">
                 <h3>View More</h3>
               </a>
 
               <a
                 href="https://beyondagekitchen.netlify.app/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <img
-                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png"
+                  src="https://res.cloudinary.com/dfeyofjln/image/upload/v1701284449/black_arrow-removebg-preview_fkkmht.png" alt=""
                   width="60px"
                 />
               </a>
@@ -270,7 +270,7 @@ const Work = () => {
             Want to see more of my projects on Node, react etc check out my
             github{" "}
             <b>
-              <a target="_blank" href="https://github.com/jossyhod">
+              <a target="_blank" rel="noreferrer" href="https://github.com/jossyhod">
                 Click here
               </a>
             </b>{" "}
