@@ -24,10 +24,10 @@
     margin-left:30px;
     display: flex;
   flex-direction: column;
-    justify-content:center ;
+    justify-content:center;
     align-items: center;
     width: 100%;
-    /* gap: 40px; */
+    gap: 40px;
 
 }
 
