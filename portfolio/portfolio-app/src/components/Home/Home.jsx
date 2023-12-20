@@ -12,7 +12,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className={styles.main_container}>
       <div className={styles.navigation}>
         <Navigation />
       </div>

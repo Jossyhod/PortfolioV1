@@ -1,4 +1,4 @@
-.body{
+.main_container{
     position: relative;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@
 
 
 .content h4{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-block-end: 0px;
     margin-block-start: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -34,7 +34,7 @@
 }
 
 .content img{
-    width: 100px;
+    width: 50px;
 }
 
 .title p{
@@ -88,6 +88,10 @@
     
 .content h4{
     font-size: 4.5rem;
+}
+
+.content img{
+    width: 100px;
 }
 
 .title p{
