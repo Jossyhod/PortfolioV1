@@ -48,7 +48,7 @@ width: 50px;
     height: 300px;
 }
 .logos .work{
-    padding-top: 300px;
+    margin-top: 400px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -103,7 +103,7 @@ width: 50px;
     height: 300px;
 }
 .logos .work{
-    padding-top: 0px;
+    margin-top: 0px;
     align-items: center;
     justify-content: center;
     display: flex;
