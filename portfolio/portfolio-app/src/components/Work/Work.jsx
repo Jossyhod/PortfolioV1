@@ -62,7 +62,7 @@ const Work = () => {
               <h2>2-OC E-COMMERCE</h2>
             </div>
             <p>
-              An e-commerce web applcation with complete market place
+              An e-commerce web application with complete market place
               functionalities. including delivery service, (Built the complete
               web application)
             </p>
