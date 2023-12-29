@@ -56,7 +56,7 @@ const Navigation = () => {
 
       <div className={styles.container}>
         <div id={styles.logo}>
-          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172726/2OC_logo-removebg-preview_q75nqy.png" />
+          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172726/2OC_logo-removebg-preview_q75nqy.png"  alt=""/>
         </div>
         <div id={styles.header}>
           <div className={styles.headertxt}>
