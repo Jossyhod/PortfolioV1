@@ -246,7 +246,7 @@ const Work = () => {
               />
             </div>
             <div className={styles.more}>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a href="https://taskperts.onrender.com" target="_blank" rel="noreferrer">
                 <h3>View More</h3>
               </a>
 
