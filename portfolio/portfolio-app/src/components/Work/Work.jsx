@@ -201,11 +201,10 @@ const Work = () => {
               alt=""
             />
             <div className={styles.heading}>
-              <h2>TASKPERT</h2>
+              <h2>TASKXPERT</h2>
             </div>
             <p>
-              A ToDo Task application for creating task and also has the
-              function of being able to share task on social media (Built the
+              A task managemant app that enables task creation and allows sharing tasks on social media (Built the
               complete web application)
             </p>
             <div className={styles.technology}>
