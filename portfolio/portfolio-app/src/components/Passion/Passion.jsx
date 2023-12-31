@@ -32,9 +32,10 @@ const Passion = () => {
           />
           <h3>BackEnd Development</h3>
           <p>
-            "My passion for backend development is like the heartbeat of every
-            well-architected system, pumping life into databases, breathing
-            logic into algorithms, and crafting seamless experiences for users."
+            The core of my commitment to backend development echoes akin to the
+            rhythm of a well-architected system, injecting life into databases,
+            embedding logic into algorithms, and crafting seamless experiences
+            for users.
           </p>
         </div>
         <div className={styles.passionbox}>
@@ -44,9 +45,10 @@ const Passion = () => {
           />
           <h3>Mentorship</h3>
           <p>
-            Giving back to the community has been my biggest passion. So, I also
-            love to give back to the community by helping people who have
-            problems in coding and mentor young coders.
+            My greatest passion lies in contributing to the community.
+            Consequently, I find joy in assisting individuals facing coding
+            challenges and mentoring aspiring young coders as a way of giving
+            back.
           </p>
         </div>
       </section>
