@@ -101,6 +101,10 @@
     padding-left: 60px;
   }
 
+  .menubar img:hover{
+    cursor: pointer;
+     transform: scale(.9);
+  }
   .container {
     display: none;
     flex-direction: column;
@@ -180,7 +184,56 @@
 .container ul li .icon {
     color: rgb(192, 190, 190);
 }
+  /* Start Sidebar */
+
+  .sidebar_container {
+    width: 91%;
+    height: 100%;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    background-color: #111111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+   
+  }
+  .sidebar {
+    margin-block-start: 0;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 85px;
+    left: 0px;
+    background-color: rgb(10, 10, 36);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    color: white;
+  }
   
+  /* .sidebar_container.open {
+    width: ;
+  } */
+  
+  .sidebar {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  .sidebar li:hover {
+    cursor: pointer;
+    color: goldenrod;
+    transform: scale(1.05);
+  }
+  
+
+
+  /* End Sidebar */
   
   @media screen and (min-width: 769px){
     .nav_ul {

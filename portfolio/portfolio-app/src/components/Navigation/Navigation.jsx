@@ -1,20 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Navigation.module.css";
 import { Link } from "react-router-dom";
-import { HiSelector } from "react-icons/hi";
-import { LiaSignalSolid } from "react-icons/lia";
-import { AiOutlineHome } from "react-icons/ai";
-import { HiUsers } from "react-icons/hi";
 
 const Navigation = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <div className={styles.nav_bar}>
       <div className={styles.nav_logo}>
         <i>
           <h3>
-            <Link target="_blank" to={"https://www.linkedin.com/in/jossyhod/"}>
+            <a
+              href="https://www.linkedin.com/in/jossyhod/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               ...Let's Connect
-            </Link>
+            </a>
           </h3>
         </i>
       </div>
@@ -47,84 +53,25 @@ const Navigation = () => {
         </li>
       </ul>
 
-      <div className={styles.menubar}>
+      <div className={styles.menubar} onClick={toggleSidebar}>
         <img
           src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172729/menu_rljc50.png"
           alt=""
         />
       </div>
 
-      <div className={styles.container}>
-        <div id={styles.logo}>
-          <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172726/2OC_logo-removebg-preview_q75nqy.png"  alt=""/>
+      {isSidebarOpen && (
+        <div className={`${styles.sidebar_container} ${isSidebarOpen ? styles.open : ""}`}>
+          <ul className={styles.sidebar}>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li>Work</li>
+            <li>Experience</li>
+            <li>Passion</li>
+          </ul>
         </div>
-        <div id={styles.header}>
-          <div className={styles.headertxt}>
-            <h4>Devias</h4>
-            <p>Production</p>
-          </div>
-          <div id={styles.selector}>
-            <HiSelector />
-          </div>
-        </div>
-
-        <ul>
-          <Link to={"/"}>
-            <li>
-              <AiOutlineHome className={styles.icon} />
-              <span>Home</span>
-            </li>
-          </Link>
-          <Link to={"/dashboard/overview"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Overview</span>
-            </li>
-          </Link>
-          <Link to={"/dashboard/customer"}>
-            <li>
-              <HiUsers className={styles.icon} />
-              <span>Customers</span>
-            </li>
-          </Link>
-          <Link to={"/"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Companies</span>
-            </li>
-          </Link>
-          <Link to={"/"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Account</span>
-            </li>
-          </Link>
-          <Link to={"/"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Settings</span>
-            </li>
-          </Link>
-          <Link to={"/"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Login</span>
-            </li>
-          </Link>
-          <Link to={"/"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Register</span>
-            </li>
-          </Link>
-          <Link to={"/"}>
-            <li>
-              <LiaSignalSolid className={styles.icon} />
-              <span>Error</span>
-            </li>
-          </Link>
-        </ul>
-      </div>
+      )}
     </div>
   );
 };
