@@ -204,7 +204,7 @@ const Work = () => {
               <h2>TASKXPERT</h2>
             </div>
             <p>
-              A task managemant app that enables task creation and allows sharing tasks on social media (Built the
+              A task managemant app that enables task creation and allows tasks sharing  on social media (Built the
               complete web application)
             </p>
             <div className={styles.technology}>
@@ -268,8 +268,8 @@ const Work = () => {
               <h2>BEYOND-AGE KITCHEN</h2>
             </div>
             <p>
-              A simple food ecommerce website that utilizes the browser
-              localstorage (Built the complete web application)
+              A simple food e-commerce website that utilizes the browser's
+              local storage (Built the complete web application)
             </p>
             <div className={styles.technology}>
               <img
